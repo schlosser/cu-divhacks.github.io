@@ -7,12 +7,12 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
 html, button, input, select, textarea {
-  font-family: inherit; }
+  font-family: 'Open Sans', sans-serif; }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
   display: block; }
@@ -40,7 +40,7 @@ svg:not(:root) {
   overflow: hidden; }
 
 body {
-  font-family: inherit, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 22px;
@@ -76,7 +76,7 @@ a {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: inherit, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0; }
 
 
@@ -104,7 +104,7 @@ h4, .fs-4 {
   font-size: 1.125rem;
   line-height: 24px;
   line-height: 1.5rem; 
-  font-family: inherit;
+  font-family: 'Open Sans';
 }
 
 h5, .fs-5 {
