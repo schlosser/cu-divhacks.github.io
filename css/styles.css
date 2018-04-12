@@ -71,7 +71,6 @@ a {
   font-weight: 100;
   font-size: 20px;
   margin-top: 30px;
-  color:black;
 }
 
 
@@ -1817,12 +1816,17 @@ input.field {
 
 .banner {
   background-color: #ff9933;
-  padding-top: 45;
+  padding: 45px 0;
   background: url(../img/NYCBanner.jpg) fixed;
   background-repeat:no-repeat;
   background-size:cover;
   text-align: center;
   color: #ffffff; }
+
+.banner h1, .banner h2, .banner p, .banner h3 {
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
 
 .banner-heading {
   text-transform: uppercase;
@@ -1831,17 +1835,26 @@ input.field {
 
 #discover-button {
   margin-top: 40px;
-
 }
 
 .banner-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin-top: 40px; }
   .banner-buttons .button {
-    display: block;
+    display: inline-block;
+    flex-grow: 0;
+    width: 18rem;
+    max-width: 100%;
     margin-top: 10px; }
     @media only screen and (min-width: 740px) {
+      .banner-buttons {
+        flex-direction: row;
+      }
       .banner-buttons .button {
         display: inline-block;
+        width: auto;
         margin: 0 10px; } }
 
 .speaker-section {
@@ -1906,8 +1919,8 @@ input.field {
 
 
 #openingMission {
-  height: 350px;
   text-align: center;
+  max-width: 800px;
 }
 
 .under-discover {
